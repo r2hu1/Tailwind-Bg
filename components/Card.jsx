@@ -28,7 +28,7 @@ export default function Card(props) {
             )}
             <div className="absolute z-10 flex items-center justify-end w-full gap-1 top-0 p-3">
                 {preview && (
-                    <Button size="icon" className="h-7 w-7"><X className="h-[1rem] w-[1rem]" onClick={() => setPreview("")} /></Button>
+                    <Button size="icon" className="h-7 w-7" onClick={() => setPreview("")} ><X className="h-[1rem] w-[1rem]" /></Button>
                 )}
                 <Button className="text-xs h-7" size="sm" onClick={prev}>preview</Button>
                 <Button className="text-xs h-7 dark:ring-1 ring-slate-900/10" variant="outline" size="sm" onClick={copy}>copy</Button>
