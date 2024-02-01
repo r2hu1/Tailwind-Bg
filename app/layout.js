@@ -12,6 +12,7 @@ const poppins = Poppins({
 export const metadata = {
   title: "Talwind Backgrounds",
   description: "A list of Talwind CSS background grids and gradients to use in your projects.",
+  icons: "/logo.png",
 };
 export const viewport = {
   themeColor: "#020817",
